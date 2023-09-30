@@ -1,0 +1,372 @@
+html {
+  scroll-behavior: smooth;
+}
+body .navbar {
+  font-size: 20px;
+}
+.logo {
+  width: 30px;
+  margin: auto;
+}
+.nav-link {
+  color: grey;
+}
+.nav-link:hover {
+  background-color: rgb(53, 51, 51);
+  color: rgb(225, 231, 231);
+}
+
+/* ------------------------- 02 Section Name ------------------*/
+.profile-img {
+  border: 10px solid rgba(238, 138, 6, 0.911);
+  border-radius: 50%;
+  margin: auto;
+  width: 300px;
+  box-shadow: 5px 4px 18px #9e9b9b;
+  transition: width 2s;
+}
+.profile-img:hover {
+  width: 350px;
+}
+
+.hero-div {
+  margin-top: 60px !important;
+}
+#navbar,
+#hero {
+  font-family: "Poppins", sans-serif;
+}
+.hero-div p {
+  font-size: 1.2rem;
+}
+.hero-div h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.hero-btn {
+  border-radius: 0;
+  background-color: rgb(41, 41, 41);
+  border-style: none;
+  padding: 12px;
+  font-size: 20px;
+}
+hr {
+  width: 5%;
+  margin: auto;
+  border: dotted grey 6px;
+  border-bottom: none;
+}
+/* ----------------------------------03 Section Education---------------------------- */
+#edu {
+  margin-top: 80px;
+}
+h2 {
+  text-align: center;
+}
+.left-edu,
+.right-edu {
+  padding: 20px;
+  padding-right: 0px;
+  margin: 20px;
+}
+/* -------------------------------04 Section Skills -------------------------------*/
+
+.skills-div {
+  text-align: center;
+}
+
+.skills-div table {
+  text-align: left;
+  padding: 20px;
+}
+
+.frontend-skills,
+.backend-skills,
+.right-edu,
+.left-edu {
+  /* background:linear-gradient(50deg, rgba(85, 230, 141, 0.333), rgba(164, 87, 241, 0.133)); */
+  padding: 30px;
+  padding-bottom: 0;
+  margin: 10px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 0px 3px 8px #888888;
+  transition: all 200ms ease-out;
+  border-radius: 10px;
+}
+.frontend-skills,
+.backend-skills {
+  background: linear-gradient(
+    100deg,
+    rgba(6, 194, 252, 0.333),
+    rgba(255, 196, 4, 0.133)
+  );
+}
+.frontend-skills:hover,
+.backend-skills:hover,
+.right-edu:hover,
+.left-edu:hover {
+  background: linear-gradient(
+    50deg,
+    rgba(85, 230, 141, 0.333),
+    rgba(164, 87, 241, 0.133)
+  );
+  box-shadow: 0px 8px 30px;
+}
+#skills {
+  background-color: aliceblue;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+/* -----------------------------------05 Skills ------------------------------------ */
+.outer {
+  height: 22px;
+  width: 80%;
+  background-color: white;
+  border: 1px solid grey;
+}
+.outer,
+.inner {
+  border-radius: 10px;
+}
+.main {
+  display: flex;
+  width: 50%;
+  margin: 20px auto;
+}
+p {
+  margin: 0;
+}
+.main p {
+  margin: auto 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.html-inner {
+  height: 20px;
+  width: 80%;
+  background-color: rgb(58, 57, 57);
+  position: relative;
+  animation-name: html-animation;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+}
+.css-inner {
+  height: 20px;
+  width: 70%;
+  background-color: rgb(58, 57, 57);
+  position: relative;
+  animation-name: css-animation;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+}
+.bootstrap-inner {
+  height: 20px;
+  width: 80%;
+  background-color: rgb(58, 57, 57);
+  position: relative;
+  animation-name: bootstrap-animation;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+}
+.javascript-inner {
+  height: 20px;
+  width: 75%;
+  background-color: rgb(58, 57, 57);
+  position: relative;
+  animation-name: javascript-animation;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+}
+.typescript-inner {
+  height: 20px;
+  width: 60%;
+  background-color: rgb(58, 57, 57);
+  position: relative;
+  animation-name: typescript-animation;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+}
+.react-inner {
+  height: 20px;
+  width: 70%;
+  background-color: rgb(58, 57, 57);
+  position: relative;
+  animation-name: react-animation;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+}
+.mongo-inner {
+  height: 20px;
+  width: 80%;
+  background-color: rgb(58, 57, 57);
+  position: relative;
+  animation-name: mongo-animation;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+}
+.node-inner {
+  height: 20px;
+  width: 65%;
+  background-color: rgb(58, 57, 57);
+  position: relative;
+  animation-name: node-animation;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+}
+@keyframes html-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80;
+  }
+}
+@keyframes css-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes bootstrap-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes javascript-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 75%;
+  }
+}
+@keyframes typescript-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+@keyframes react-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes mongo-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes node-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 65%;
+  }
+}
+@media (max-width: 960px) {
+  .skills-flex {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .outer {
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+  }
+}
+
+/* --------------------------------06 Section Projects ------------------------- */
+#contact {
+  margin-top: 50px;
+}
+.project-btn {
+  border: 2px solid rgb(80, 80, 80);
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+@media (max-width: 960px) {
+  .project-btn {
+    padding: 7px 10px;
+    margin: 2px;
+  }
+}
+
+.card img {
+  border-radius: 20px;
+}
+.card {
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 10px;
+  /* box-shadow: 7px 10px; */
+  box-shadow: 10px 10px 0px #202020;
+}
+.card:hover {
+  box-shadow: 6px 5px 1px #848584;
+  transition-duration: 1s;
+}
+.project-heading {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+/* ------------------------------- 07 Section From---------------------- */
+#contact {
+  background-color: rgb(33, 52, 61);
+  color: white;
+  margin: 50px auto;
+  padding: 50px 0px;
+  margin-bottom: 0;
+}
+.inputs {
+  width: 48%;
+  background-color: rgb(33, 52, 61);
+  padding: 10px 4px;
+  border-radius: 10px;
+  border: 3px solid rgb(76, 193, 240);
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+#text-area {
+  width: 100%;
+  background-color: rgb(33, 52, 61);
+  color: white;
+  border-radius: 10px;
+  border: 3px solid rgb(76, 193, 240);
+  padding: 10px;
+}
+
+/* -------------------------- 08 Section footer ---------------------------*/
+.footer {
+  color: rgb(20, 20, 20);
+  padding: 10px;
+  padding-bottom: 7px;
+  background-color: rgb(241, 240, 240);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    text-align: center;
+  }
+}
